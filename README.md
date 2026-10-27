@@ -4,6 +4,7 @@
 ### E-Commerce Sales Analysis 
 This assignment will help you explore e-commerce sales data analysis using Power BI. 
 Below are the files you will be working with (click on each to download): 
+<br>
 ★ List of Orders.csv 
 ★ Order Details.csv 
 ★ Sales target.csv 
