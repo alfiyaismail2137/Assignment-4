@@ -56,8 +56,9 @@ orders placed in Delhi.
 ● Calculate Year-to-Date (YTD) Sales: Define a measure to calculate the total sales 
 amount accumulated from the earliest order date up to each order date. 
 
+<br>Date_Table = CALENDAR(MIN('List of Orders'[Order Date]),MAX('List of Orders'[Order Date]))
 <br>Table tools-->New Measures-->Total_Amount = SUM('Order Details'[Amount]).
-<br>Table tools-->New Measures-->Ytd = TOTALYTD([Total_Amount],'List of Orders'[Order Date]).
+<br>Table tools-->New Measures-->Ytd = TOTALYTD([Total_Amount],Date_Table[Date]).
 
 #### Data Visualization: 
 
